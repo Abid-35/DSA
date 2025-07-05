@@ -23,4 +23,8 @@ public class linear{
     }
 
 //Time complexity -> measure of how the running time of the algorithm increases with the increase of the size of the input .
+//     Big O	     Name	
+//     O(1)	         Constant       //Good	
+//     O(log n)	     Logarithmic	//Good
+//     O(n)	         Linear	        //Ok
 
