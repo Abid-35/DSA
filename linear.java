@@ -13,7 +13,7 @@ public class linear{
     }
 
 
-        public static int linearsearch(int[] array , int target ){
+        public static int linearsearch(int array[] , int target ){
             for(int i = 0 ; i<array.length ; i++){
                 if(array[i]==target)
                  return i;
@@ -21,3 +21,6 @@ public class linear{
             return -1;
         }
     }
+
+//Time complexity -> measure of how the running time of the algorithm increases with the increase of the size of the input .
+
