@@ -27,4 +27,5 @@ public class linear{
 //     O(1)	         Constant       //Good	
 //     O(log n)	     Logarithmic	//Good
 //     O(n)	         Linear	        //Ok
+//     O(n log n)	 Linearithmic	//Make it Better
 
