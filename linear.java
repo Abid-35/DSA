@@ -28,4 +28,6 @@ public class linear{
 //     O(log n)	     Logarithmic	//Good
 //     O(n)	         Linear	        //Ok
 //     O(n log n)	 Linearithmic	//Make it Better
-
+//     O(n^2)	     Quadratic	    //Worst
+//     O(2^n)	     Exponential	//Worst
+//     O(n!)	     Factorial	    //Worst
