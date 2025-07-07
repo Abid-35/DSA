@@ -28,8 +28,8 @@ This repository documents my learning and practice in DSA using Java.
 
 
 ### 📌 Day 3:Types of Sorting
--Bubble Sort , Selection Sort .
--Their time complexity is o(n^2)i.e quadratic .
+-Bubble Sort , Selection Sort.
+-Their time complexity is o(n^2)i.e Quadratic.
 
 
 
