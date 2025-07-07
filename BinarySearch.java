@@ -1,6 +1,6 @@
 
 
-public class binary{
+public class BinarySearch{
     static  int steps =0;
     public static void main(String[] args){
         System.out.println("Binary Search");

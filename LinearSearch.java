@@ -1,4 +1,4 @@
-public class linear{
+public class LinearSearch{
     public static void main(String[] args){
         System.out.println("Linear Search");
         int array[] = {1,3,5,7};
