@@ -2,7 +2,7 @@ public class SelectionSort {
     public static void main(String[] args) {
         System.out.println("Welcome to the world");
         int arr[] = {4, 2, 5, 1, 10, 9};
-        int minIndex = 0;
+        int minIndex;
 
         System.out.println("Before Sorting:");
         for (int num : arr) {

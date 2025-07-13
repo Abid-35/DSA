@@ -2,7 +2,7 @@ public class BubbleSort{
     public static void main(String[] args){
         System.out.println("Hello world ");
         int arr[] = {2,5,1,10,8,6};
-        int temp = 0;
+        int temp;
         System.out.println("Before Sorting");
         for(int num : arr){
             System.out.print(num);
