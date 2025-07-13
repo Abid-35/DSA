@@ -31,6 +31,10 @@ This repository documents my learning and practice in DSA using Java.
 -Bubble Sort , Selection Sort , Insertion Sort.
 -Their time complexity is o(n^2)i.e Quadratic.
 
+### 📌 Day 4:Types of Sorting
+-Quick Sort.
+-Their time complexity is o(n logn).
+
 
 
 
