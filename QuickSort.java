@@ -1,36 +1,49 @@
-public class QuickSort {
-    static void quickSort(int[] arr, int low, int high) {
-        if (low < high) {
-            int pi = partition(arr, low, high); // pivot index
-            quickSort(arr, low, pi - 1);  // left part
-            quickSort(arr, pi + 1, high); // right part
+public class QuickSort{
+    public  static void main(String[] args){
+        System.out.println("TRying the QuickSort");
+        int num[] = {22,55,12,32};
+        System.out.println("Before Sorting");
+        for(int n : num){
+            System.out.print(n + " ");
         }
-    }
+        System.out.println(" ");
 
-    static int partition(int[] arr, int low, int high) {
-        int pivot = arr[high]; // choose last element as pivot
-        int i = low - 1;
+        QuickSort( num,0,num.length-1);
 
-        for (int j = low; j < high; j++) {
-            if (arr[j] < pivot) {
-                i++;
-                // swap arr[i] and arr[j]
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+        System.out.println("After Sorting");
+
+        for(int n : num){
+            System.out.print(n + " ");
+        }
+        System.out.println(" ");
+
+
+        }
+
+        public static void QuickSort(int array[] , int  low , int high){
+            if(low<high){
+            int  pi = partition(array, low, high);
+            QuickSort(array, low, pi-1);
+            QuickSort(array, pi+1, high);
             }
         }
-        // place pivot at correct position
-        int temp = arr[i + 1];
-        arr[i + 1] = arr[high];
-        arr[high] = temp;
+     public static int partition(int []array1,  int low , int high){
+        int pivot = array1[high];
+        int i = low-1;
+        for(int j = low ; j<high ; j++){
+            if(array1[j]<pivot){
+                i++;
+                int temp = array1[i];
+                array1[i] = array1[j];
+                array1[j] = temp;
+            }
+        }
+    
+        int temp = array1[i+1];
+        array1[i+1] = array1[high];
+        array1[high] = temp;
+        return i+1;
+     }
+} 
 
-        return i + 1;
-    }
-
-    public static void main(String[] args) {
-        int[] arr = {10, 7, 8, 9, 1, 5};
-        quickSort(arr, 0, arr.length - 1);
-        for (int i : arr) System.out.print(i + " ");
-    }
-}
+     
