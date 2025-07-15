@@ -27,18 +27,25 @@ public class mergeSort {
 
         while (i < n1 && j < n2) {
             if (Larr[i] < Rarr[j]) {
-                array[k++] = Larr[i++];
+                array[k] = Larr[i];
+                i++;
             } else {
-                array[k++] = Rarr[j++];
+                array[k] = Rarr[j];
+                j++;
             }
+            k++;
         }
 
         while (i < n1) {
-            array[k++] = Larr[i++];
+            array[k] = Larr[i];
+            i++;
+            k++;
         }
 
         while (j < n2) {
-            array[k++] = Rarr[j++];
+            array[k] = Rarr[j];
+            j++;
+            k++;
         }
     }
 
