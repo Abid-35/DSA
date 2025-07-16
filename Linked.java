@@ -12,5 +12,6 @@ public class Linked{
         System.out.println(Num.peek());//to access the head element
     }
 }
+// Linked list Data structure is abstract  data structure  it doesnt work with index values when if u try to access with index value  it will track btw the elmments.
 
 
