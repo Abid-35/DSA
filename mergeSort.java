@@ -54,7 +54,7 @@ public class mergeSort {
         int arr[] = {3, 5, 1, 4, 6, 2};
         mergeSort(arr, 0, arr.length - 1);
 
-        System.out.println("Sorted array:");
+        System.out.println("Sorted array:");          
         for (int i : arr) {
             System.out.print(i + " ");
         }
