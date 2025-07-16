@@ -72,3 +72,9 @@ This repository documents my learning and hands-on practice in DSA using **Java*
 
 ---
 
+### 📌 Day 6: Sorting Algorithms (Part 3)
+
+### LInked List
+- The Data structure is same as Abstract Data Structure doesn't work with index value . If you try to acces with index vlaue it will track btw the elements .IT is time consuming   
+
+
