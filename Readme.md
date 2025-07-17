@@ -1,80 +1,62 @@
 # 📘 DSA Learning Journey with Java
 
 Welcome to my **Data Structures and Algorithms (DSA)** repository!  
-This repository documents my learning and hands-on practice in DSA using **Java**.  
-🚀 I recently started this journey, and here’s what I’ve covered in the first 5 days:
+This repo documents my DSA learning and hands-on practice using **Java**.  
+🚀 I’ve completed over 5 days of consistent progress—here’s a quick overview:
 
 ---
 
 ## ✅ What I’ve Learned So Far
 
 ### 📌 Day 1: Introduction to DSA & Time Complexity
-- Understood the **importance of DSA** in solving real-world problems efficiently.
-- Learned about **Time Complexity** and **Big-O Notation**:
-  - Best, Worst, and Average cases.
-  - Common complexities: `O(1)`, `O(n)`, `O(log n)`, `O(n²)`.
-  - How to analyze time complexity from code.
+- Importance of DSA for solving problems efficiently.
+- Learned **Big-O Notation**: `O(1)`, `O(n)`, `O(log n)`, `O(n²)`
+- Analyzing code for best, worst, and average cases.
 
 ---
 
 ### 📌 Day 2: Searching Algorithms
 
 #### 🔍 Linear Search
-- Used when the array is **unsorted**.
-- Iterates through each element.
+- For **unsorted arrays**, checks each element.
 - **Time Complexity:** `O(n)`
 
-#### 🔎 Binary Search (Recursive & Iterative)
-- Used only for **sorted arrays**.
-- Continuously divides the array in half.
+#### 🔎 Binary Search (Iterative & Recursive)
+- For **sorted arrays**, divides search space in half.
 - **Time Complexity:** `O(log n)`
 
 ---
 
 ### 📌 Day 3: Sorting Algorithms (Part 1)
-
-#### 🟢 Bubble Sort
-- Repeatedly swaps adjacent elements if they’re in the wrong order.
-- **Time Complexity:** `O(n²)`
-
-#### 🟢 Selection Sort
-- Repeatedly selects the minimum element and places it at the beginning.
-- **Time Complexity:** `O(n²)`
-
-#### 🟢 Insertion Sort
-- Builds the sorted array one item at a time.
-- **Time Complexity:** `O(n²)`
-
-> 📝 All three are **quadratic time** sorting algorithms and work best for small datasets.
+- **Bubble Sort:** Swap adjacent if in wrong order — `O(n²)`
+- **Selection Sort:** Select min & place at start — `O(n²)`
+- **Insertion Sort:** Builds sorted array gradually — `O(n²)`  
+> ✅ Suitable for small datasets.
 
 ---
 
 ### 📌 Day 4: Sorting Algorithms (Part 2)
 
 #### ⚡ Quick Sort
-- Uses the **Divide and Conquer** strategy.
-- Picks a pivot and partitions the array.
-- **Time Complexity:**
-  - Average Case: `O(n log n)`
-  - Worst Case (e.g., already sorted input + bad pivot): `O(n²)`
-- **Space Complexity:** `O(log n)` (due to recursion stack)
+- **Divide and Conquer**, uses pivot to partition.
+- **Avg Time:** `O(n log n)` | **Worst:** `O(n²)`
+- **Space Complexity:** `O(log n)` (recursive)
 
 ---
 
 ### 📌 Day 5: Sorting Algorithms (Part 3)
 
 #### 🧩 Merge Sort
-- Also follows the **Divide and Conquer** strategy.
-- Divides the array into halves, sorts them recursively, and merges the result.
-- **Time Complexity:** `O(n log n)` in all cases (best, average, and worst)
-- **Space Complexity:** `O(n)` (uses extra space for temporary arrays)
-- A **stable sort** — preferred when stability is needed or when consistent performance is important.
+- Recursively splits and merges halves.
+- **Time Complexity:** `O(n log n)` (all cases)
+- **Space Complexity:** `O(n)`
+- ✅ Stable and consistent
 
 ---
 
-### 📌 Day 6: Sorting Algorithms (Part 3)
+### 📌 Day 6: Linked List
+- The data structure is same as Abstract Data Structure.
+- Doesn’t work with index value. If you try to access with an index value, it will track between the elements.
+- It is time-consuming.
 
-### LInked List
-- The Data structure is same as Abstract Data Structure doesn't work with index value . If you try to acces with index vlaue it will track btw the elements .IT is time consuming   
-
-
+ 
