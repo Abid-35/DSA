@@ -10,5 +10,6 @@ public class stack{
         num.push(60);
         System.out.println("Stack"+num);
         System.out.println("Peek gives last in element " + num.peek());
-        
+        System.out.println("Stack after all the operations " + num);
+
     }}
