@@ -13,3 +13,5 @@ public class stack{
         System.out.println("Stack after all the operations " + num);
 
     }}
+
+    // To implement own stack we use the top , size , array 
